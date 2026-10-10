@@ -18,12 +18,13 @@ export function statusLabel(project, meta) {
   return (STATUS[project.status] || STATUS['open-source'])(meta);
 }
 
-// Số commit chỉ có nghĩa khi repo chứa mã nguồn; repo chỉ để phát hành thì bỏ qua.
+// Số commit chỉ có nghĩa khi repo chứa mã nguồn (repo chỉ để phát hành thì bỏ qua),
+// và chỉ hiện khi đủ nhiều: repo đẩy lên một lần có vài commit trông mỏng hơn thực tế.
 function metricText(project, meta) {
   if (!meta) return '';
   const parts = [];
   if (meta.stars > 0) parts.push(`${meta.stars} stars`);
-  if (meta.commits && !['release', 'closed'].includes(project.status)) parts.push(`${meta.commits} commits`);
+  if (meta.commits >= 10 && !['release', 'closed'].includes(project.status)) parts.push(`${meta.commits} commits`);
   return parts.join('   ');
 }
 

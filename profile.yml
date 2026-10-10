@@ -117,6 +117,18 @@ projects:
       resolves Google News links and exports Markdown or JSON reports.
     tags: [Python, RSS, Tkinter]
 
+  - id: mini-ids
+    title: mini-IDS
+    repo: NovWyatt/mini-ids
+    size: wide
+    image: media/mini-ids.png
+    icon: phosphor:shield-check
+    status: open-source
+    description: >-
+      Intrusion detection in Python: 12 detectors from port scans to C2 beaconing,
+      ML anomaly scoring and a live dashboard mapped to MITRE ATT&CK.
+    tags: [Python, Scapy, FastAPI, NumPy]
+
 # Danh sách gọn trong mục "More projects" (thu gọn, bấm để mở).
 more:
   - title: DevStack Local
