@@ -112,16 +112,16 @@ projects:
       then leaves a report of everything it did.
     tags: [PowerShell, AutoIt, Ventoy]
 
-  - id: newsapicrawl
-    title: newsapicrawl
-    repo: NovWyatt/newsapicrawl
+  - id: ke-toan
+    title: KE-TOAN
+    repo: NovWyatt/KE-TOAN
     size: half
-    icon: phosphor:newspaper
+    icon: phosphor:calculator
     status: open-source
     description: >-
-      Topic research agent for trusted Vietnamese news sources: searches by topic and date,
-      resolves Google News links and exports Markdown or JSON reports.
-    tags: [Python, RSS, Tkinter]
+      Desktop tool for accountants: matches invoices due for payment against bank debit notes
+      in an Excel file. Runs offline, no Excel needed.
+    tags: [C#, .NET 8, WPF, ClosedXML]
 
   - id: mini-ids
     title: mini-IDS
@@ -137,18 +137,12 @@ projects:
 
 # Danh sách gọn trong mục "More projects" (thu gọn, bấm để mở).
 more:
-  - title: DevStack Local
-    repo: NovWyatt/devstack-local
-    description: Electron app to run and manage a local web stack on Windows, an alternative to XAMPP and Laragon.
   - title: SQL Injection Lab
     repo: NovWyatt/SQL-Injnection
     description: Teaching lab with a vulnerable and a patched Flask app side by side.
   - title: Web Brute Force Detection
     repo: NovWyatt/web-brute-force-detection
     description: Flask login that locks IPs and usernames after repeated failures, with an admin dashboard.
-  - title: AI Agent Project Kit
-    repo: NovWyatt/ai-agent-project-kit
-    description: Portable starter folder of rules and settings for projects that use Codex and Claude Code.
   - title: IP Checker
     repo: NovWyatt/IP-Checker
     link: https://ip-checker-phi.vercel.app

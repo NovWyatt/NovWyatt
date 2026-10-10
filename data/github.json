@@ -9,6 +9,11 @@
     "commits": 5,
     "release": null
   },
+  "NovWyatt/KE-TOAN": {
+    "stars": 0,
+    "commits": 7,
+    "release": "v0.4.1"
+  },
   "NovWyatt/SQL-Injnection": {
     "stars": 0,
     "commits": 1,
@@ -24,20 +29,10 @@
     "commits": 4,
     "release": null
   },
-  "NovWyatt/ai-agent-project-kit": {
-    "stars": 0,
-    "commits": 4,
-    "release": null
-  },
   "NovWyatt/checkparking": {
     "stars": 0,
     "commits": 3,
     "release": "v1.14.2"
-  },
-  "NovWyatt/devstack-local": {
-    "stars": 0,
-    "commits": 21,
-    "release": null
   },
   "NovWyatt/encrypt-decrypt-tool": {
     "stars": 0,
@@ -52,11 +47,6 @@
   "NovWyatt/mini-ids": {
     "stars": 0,
     "commits": 2,
-    "release": null
-  },
-  "NovWyatt/newsapicrawl": {
-    "stars": 0,
-    "commits": 6,
     "release": null
   },
   "NovWyatt/web-brute-force-detection": {

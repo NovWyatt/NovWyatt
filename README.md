@@ -23,7 +23,7 @@
 
 <a href="https://encrypt-decrypt-tool.pages.dev"><img src="assets/projects/encrypt-decrypt-tool.svg" width="100%" alt="Encrypt/Decrypt Tool: AES and RSA for text and files, entirely in the browser with no server. Interactive lessons show why ECB leaks an image and CBC does not. (Live demo)"></a>
 
-<a href="https://github.com/NovWyatt/AutoInstaller-Win"><img src="assets/projects/autoinstaller-win.svg" width="49%" alt="AutoInstaller-Win: A bootable USB that installs Windows 11, apps, drivers and settings unattended, then leaves a report of everything it did. (Open source)"></a>&nbsp;<a href="https://github.com/NovWyatt/newsapicrawl"><img src="assets/projects/newsapicrawl.svg" width="49%" alt="newsapicrawl: Topic research agent for trusted Vietnamese news sources: searches by topic and date, resolves Google News links and exports Markdown or JSON reports. (Open source)"></a>
+<a href="https://github.com/NovWyatt/AutoInstaller-Win"><img src="assets/projects/autoinstaller-win.svg" width="49%" alt="AutoInstaller-Win: A bootable USB that installs Windows 11, apps, drivers and settings unattended, then leaves a report of everything it did. (Open source)"></a>&nbsp;<a href="https://github.com/NovWyatt/KE-TOAN"><img src="assets/projects/ke-toan.svg" width="49%" alt="KE-TOAN: Desktop tool for accountants: matches invoices due for payment against bank debit notes in an Excel file. Runs offline, no Excel needed. (Open source)"></a>
 
 <a href="https://github.com/NovWyatt/mini-ids"><img src="assets/projects/mini-ids.svg" width="100%" alt="mini-IDS: Intrusion detection in Python: 12 detectors from port scans to C2 beaconing, ML anomaly scoring and a live dashboard mapped to MITRE ATT&amp;CK. (Open source)"></a>
 
@@ -32,10 +32,8 @@
 
 | Project | What it is |
 | --- | --- |
-| [DevStack Local](https://github.com/NovWyatt/devstack-local) | Electron app to run and manage a local web stack on Windows, an alternative to XAMPP and Laragon. |
 | [SQL Injection Lab](https://github.com/NovWyatt/SQL-Injnection) | Teaching lab with a vulnerable and a patched Flask app side by side. |
 | [Web Brute Force Detection](https://github.com/NovWyatt/web-brute-force-detection) | Flask login that locks IPs and usernames after repeated failures, with an admin dashboard. |
-| [AI Agent Project Kit](https://github.com/NovWyatt/ai-agent-project-kit) | Portable starter folder of rules and settings for projects that use Codex and Claude Code. |
 | [IP Checker](https://github.com/NovWyatt/IP-Checker) | Single-page tool that shows your public IP and its details. [Live demo](https://ip-checker-phi.vercel.app) |
 | [Weather Dashboard](https://github.com/NovWyatt/WratherMap) | Forecast dashboard on the OpenWeatherMap API with Chart.js. [Live demo](https://wrather-map.vercel.app) |
 
