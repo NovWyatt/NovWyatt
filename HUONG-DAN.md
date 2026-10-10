@@ -70,20 +70,18 @@ Thêm `?theme=light` để xem giao diện sáng. Chỉ vẽ lại một phần:
 Trang chạy trên Cloudflare Workers (chỉ tệp tĩnh, gói miễn phí), cấu hình ở `wrangler.jsonc`.
 Nội dung lấy từ `profile.yml`; giao diện và hiệu ứng ở `site/src/style.css` và `site/src/app.js`.
 
+**Tự đăng:** Worker `wyattos` đã nối với repo này qua Cloudflare Workers Builds (nhánh `main`,
+lệnh dựng `npm run site`, lệnh đăng `npx wrangler deploy`, biến `NODE_VERSION=22`).
+Mỗi commit lên `main` (sửa `profile.yml`, hay commit "Vẽ lại profile" mỗi đêm của Actions) đều được Cloudflare dựng và đăng lại sau khoảng 1 phút.
+Xem nhật ký dựng ở Cloudflare > Workers & Pages > wyattos > Deployments; sửa cấu hình ở Settings > Builds.
+
+Đăng tay hoặc xem trước trên máy:
+
 ```bash
 npm run site       # chỉ dựng site/dist
-npm run deploy     # dựng rồi đăng lên Cloudflare (lần đầu chạy npx wrangler login)
+npx wrangler dev   # xem trước ở http://localhost:8787
+npm run deploy     # dựng rồi đăng ngay (lần đầu chạy npx wrangler login)
 ```
-
-Xem trước trên máy: `npm run site` rồi `npx wrangler dev`, mở http://localhost:8787.
-
-**Tự đăng sau mỗi lần sửa `profile.yml` (tuỳ chọn):** chưa có thì phải chạy `npm run deploy` trên máy.
-
-1. Cloudflare > My Profile > API Tokens > Create Token > mẫu **Edit Cloudflare Workers**, chọn đúng tài khoản và zone `wyattos.cyou`.
-2. Repo này > Settings > Secrets and variables > Actions, thêm `CLOUDFLARE_API_TOKEN` (token vừa tạo)
-   và `CLOUDFLARE_ACCOUNT_ID` (mã tài khoản, xem ở trang Workers & Pages hoặc chạy `npx wrangler whoami`).
-
-Có hai secret này, workflow **Profile** sẽ tự đăng lại trang sau khi vẽ README, kể cả lần chạy mỗi đêm (cập nhật biểu đồ đóng góp).
 
 ## Token (tuỳ chọn)
 
