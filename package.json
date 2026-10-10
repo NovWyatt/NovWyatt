@@ -1,0 +1,20 @@
+{
+  "name": "novwyatt-profile",
+  "private": true,
+  "description": "Sinh README và ảnh SVG cho trang GitHub của NovWyatt từ profile.yml",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/preview.mjs"
+  },
+  "dependencies": {
+    "@phosphor-icons/core": "2.1.1",
+    "opentype.js": "2.0.0",
+    "sharp": "0.35.5",
+    "simple-icons": "16.34.0",
+    "yaml": "2.9.1"
+  }
+}

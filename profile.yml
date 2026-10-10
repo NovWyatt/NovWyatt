@@ -1,0 +1,182 @@
+# Hồ sơ GitHub của Wyatt.
+#
+# Đây là tệp DUY NHẤT cần sửa. Sửa ngay trên github.com (bấm biểu tượng bút chì), bấm
+# "Commit changes", khoảng 1 phút sau GitHub Actions tự vẽ lại README.md và các ảnh trong assets/.
+# Không sửa tay README.md hay assets/: lần chạy sau sẽ ghi đè.
+#
+# Icon: tên viết thường trên https://simpleicons.org (ví dụ: telegram, facebook, tiktok, youtube, discord),
+#       hoặc "phosphor:<tên>" lấy từ https://phosphoricons.com (ví dụ: phosphor:envelope-simple).
+
+name: Wyatt                 # chữ lớn 3D ở đầu trang
+username: NovWyatt
+tagline: I build web apps, Windows tools and the automation in between.
+
+# Dòng chữ tự gõ dưới tên, lần lượt từng dòng.
+roles:
+  - fullstack web developer
+  - laravel + cloudflare workers
+  - python for ocr and data recovery
+  - windows automation in powershell
+  - learning network security
+
+# Đoạn giới thiệu ngắn ngay dưới ảnh đầu trang (Markdown).
+intro: >-
+  Hi, I'm Wyatt, a fullstack developer from Ho Chi Minh City, Vietnam.
+  I build web apps on Laravel and Cloudflare Workers, Windows tools in PowerShell and C#,
+  and Python utilities for OCR, data recovery and network security.
+
+# Mạng xã hội: thêm, bớt, đổi thứ tự thoải mái. Mỗi mục 3 dòng.
+socials:
+  - label: Telegram
+    url: https://t.me/Whatever_willbe_willbe
+    icon: telegram
+  - label: Email
+    url: mailto:hoangftuaans.nov@gmail.com
+    icon: gmail
+  - label: Instagram
+    url: https://www.instagram.com/nov.wyatt
+    icon: instagram
+  # - label: Facebook
+  #   url: https://www.facebook.com/<tên>
+  #   icon: facebook
+  # - label: TikTok
+  #   url: https://www.tiktok.com/@<tên>
+  #   icon: tiktok
+
+# Dự án nổi bật. size: wide (cả hàng, có ảnh 3D) hoặc half (nửa hàng, hai thẻ nằm cạnh nhau).
+# status: open-source | live | release | closed
+# show: false để tạm ẩn một dự án mà không phải xoá.
+projects:
+  - id: checkparking
+    title: Check Vehicle OCR
+    repo: NovWyatt/checkparking
+    link: https://github.com/NovWyatt/checkparking/releases/latest
+    size: wide
+    image: media/checkparking.png
+    icon: phosphor:car-profile
+    status: release
+    description: >-
+      Windows app that reads Vietnamese license plates from photo batches, fully offline
+      with PaddleOCR on ONNX Runtime, then exports the results to Excel.
+    tags: [Python, PySide6, PaddleOCR, ONNX Runtime, OpenCV]
+
+  - id: tool-win
+    title: Trạm Tool
+    repo: NovWyatt/Tool_Win
+    size: half
+    icon: phosphor:toolbox
+    status: open-source
+    description: >-
+      One local hub for my Windows toolkit: diagnostics, repairs, office and data tools,
+      launched and tracked from a browser UI.
+    tags: [PowerShell, Python, JavaScript]
+
+  - id: mdf2sql
+    title: mdf2sql
+    repo: NovWyatt/mdf2sql
+    size: half
+    icon: phosphor:database
+    status: open-source
+    description: >-
+      Recovers SQL Server data from a bare .mdf file, even after a power cut with no log,
+      into a .sql script for SQL Server or MySQL.
+    tags: [Python, SQL Server, pyodbc]
+
+  - id: encrypt-decrypt-tool
+    title: Encrypt/Decrypt Tool
+    repo: NovWyatt/encrypt-decrypt-tool
+    link: https://encrypt-decrypt-tool.pages.dev
+    size: wide
+    image: media/encrypt-decrypt-tool.png
+    icon: phosphor:lock-key
+    status: live
+    description: >-
+      AES and RSA for text and files, entirely in the browser with no server.
+      Interactive lessons show why ECB leaks an image and CBC does not.
+    tags: [TypeScript, React, Web Crypto, Argon2]
+
+  - id: autoinstaller-win
+    title: AutoInstaller-Win
+    repo: NovWyatt/AutoInstaller-Win
+    size: half
+    icon: phosphor:usb
+    status: open-source
+    description: >-
+      A bootable USB that installs Windows 11, apps, drivers and settings unattended,
+      then leaves a report of everything it did.
+    tags: [PowerShell, AutoIt, Ventoy]
+
+  - id: newsapicrawl
+    title: newsapicrawl
+    repo: NovWyatt/newsapicrawl
+    size: half
+    icon: phosphor:newspaper
+    status: open-source
+    description: >-
+      Topic research agent for trusted Vietnamese news sources: searches by topic and date,
+      resolves Google News links and exports Markdown or JSON reports.
+    tags: [Python, RSS, Tkinter]
+
+# Danh sách gọn trong mục "More projects" (thu gọn, bấm để mở).
+more:
+  - title: DevStack Local
+    repo: NovWyatt/devstack-local
+    description: Electron app to run and manage a local web stack on Windows, an alternative to XAMPP and Laragon.
+  - title: SQL Injection Lab
+    repo: NovWyatt/SQL-Injnection
+    description: Teaching lab with a vulnerable and a patched Flask app side by side.
+  - title: Web Brute Force Detection
+    repo: NovWyatt/web-brute-force-detection
+    description: Flask login that locks IPs and usernames after repeated failures, with an admin dashboard.
+  - title: AI Agent Project Kit
+    repo: NovWyatt/ai-agent-project-kit
+    description: Portable starter folder of rules and settings for projects that use Codex and Claude Code.
+  - title: IP Checker
+    repo: NovWyatt/IP-Checker
+    link: https://ip-checker-phi.vercel.app
+    description: Single-page tool that shows your public IP and its details.
+  - title: Weather Dashboard
+    repo: NovWyatt/WratherMap
+    link: https://wrather-map.vercel.app
+    description: Forecast dashboard on the OpenWeatherMap API with Chart.js.
+
+# Bàn phím công nghệ. Mỗi hàng có một phím chức năng (row) và các phím icon.
+# Phím có thể là tên icon, hoặc { label: "...", icon: "..." } khi muốn đổi chữ trên phím.
+stack:
+  - row: LANG
+    keys:
+      - typescript
+      - javascript
+      - php
+      - python
+      - { label: "C#", icon: "phosphor:file-c-sharp" }
+      - { label: PowerShell, icon: "phosphor:terminal-window" }
+  - row: WEB
+    keys: [laravel, react, vite, tailwindcss, bootstrap, threedotjs]
+  - row: SERVER
+    keys:
+      - cloudflare
+      - hono
+      - nodedotjs
+      - fastapi
+      - flask
+      - dotnet
+  - row: DATA
+    keys:
+      - mysql
+      - mariadb
+      - sqlite
+      - { label: SQL Server, icon: "phosphor:database" }
+      - opencv
+      - onnx
+  - row: TOOLS
+    keys:
+      - git
+      - githubactions
+      - electron
+      - { label: Windows, icon: "phosphor:windows-logo" }
+      - linux
+      - kalilinux
+
+# Câu kết cuối trang.
+quote: If you put in the effort, success will surely come to you one day soon.

@@ -1,15 +1,49 @@
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Whatever_willbe_willbe) [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hoangftuaans.nov@gmail.com) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/nov.wyatt)
+<!--
+  README này được sinh tự động từ profile.yml (scripts/build.mjs).
+  Muốn đổi nội dung thì sửa profile.yml, xem HUONG-DAN.md. Sửa trực tiếp tệp này sẽ bị ghi đè.
+-->
 
-# Hi, I’m Wyatt
-I’m from Vietnam, a peaceful and beautiful country. My dream is to work in Fullstack Web Development. I have a good understanding of web development tools and technologies.
+<a href="https://github.com/NovWyatt"><img src="assets/hero.svg" width="100%" alt="Wyatt: fullstack web developer, laravel + cloudflare workers, python for ocr and data recovery, windows automation in powershell, learning network security"></a>
 
-You can contact me via Telegram: [https://t.me/Whatever_willbe_willbe](https://t.me/Whatever_willbe_willbe).
+<p align="center">
+<a href="https://t.me/Whatever_willbe_willbe"><img src="assets/social/telegram.svg" height="46" alt="Telegram"></a>&nbsp;
+<a href="mailto:hoangftuaans.nov@gmail.com"><img src="assets/social/email.svg" height="46" alt="Email"></a>&nbsp;
+<a href="https://www.instagram.com/nov.wyatt"><img src="assets/social/instagram.svg" height="46" alt="Instagram"></a>
+</p>
 
-If you’re looking for a tool on my profile, please be patient as I’m updating it gradually!
+<p align="center">Hi, I'm Wyatt, a fullstack developer from Ho Chi Minh City, Vietnam. I build web apps on Laravel and Cloudflare Workers, Windows tools in PowerShell and C#, and Python utilities for OCR, data recovery and network security.</p>
 
-Goodbye, and I wish you a peaceful and happy day!
+<img src="assets/heading-work.svg" width="100%" alt="Selected work">
 
-# 🌟 **If you put in the effort, success will surely come to you one day soon.** 🌟
+<a href="https://github.com/NovWyatt/checkparking/releases/latest"><img src="assets/projects/checkparking.svg" width="100%" alt="Check Vehicle OCR: Windows app that reads Vietnamese license plates from photo batches, fully offline with PaddleOCR on ONNX Runtime, then exports the results to Excel. (Download v1.14.2)"></a>
 
-# 💻Tech Stack
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Kali](https://img.shields.io/badge/Kali-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Sever-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
+<a href="https://github.com/NovWyatt/Tool_Win"><img src="assets/projects/tool-win.svg" width="49%" alt="Trạm Tool: One local hub for my Windows toolkit: diagnostics, repairs, office and data tools, launched and tracked from a browser UI. (Open source)"></a>&nbsp;<a href="https://github.com/NovWyatt/mdf2sql"><img src="assets/projects/mdf2sql.svg" width="49%" alt="mdf2sql: Recovers SQL Server data from a bare .mdf file, even after a power cut with no log, into a .sql script for SQL Server or MySQL. (Open source)"></a>
+
+<a href="https://encrypt-decrypt-tool.pages.dev"><img src="assets/projects/encrypt-decrypt-tool.svg" width="100%" alt="Encrypt/Decrypt Tool: AES and RSA for text and files, entirely in the browser with no server. Interactive lessons show why ECB leaks an image and CBC does not. (Live demo)"></a>
+
+<a href="https://github.com/NovWyatt/AutoInstaller-Win"><img src="assets/projects/autoinstaller-win.svg" width="49%" alt="AutoInstaller-Win: A bootable USB that installs Windows 11, apps, drivers and settings unattended, then leaves a report of everything it did. (Open source)"></a>&nbsp;<a href="https://github.com/NovWyatt/newsapicrawl"><img src="assets/projects/newsapicrawl.svg" width="49%" alt="newsapicrawl: Topic research agent for trusted Vietnamese news sources: searches by topic and date, resolves Google News links and exports Markdown or JSON reports. (Open source)"></a>
+
+<details>
+<summary><b>More projects</b></summary>
+
+| Project | What it is |
+| --- | --- |
+| [DevStack Local](https://github.com/NovWyatt/devstack-local) | Electron app to run and manage a local web stack on Windows, an alternative to XAMPP and Laragon. |
+| [SQL Injection Lab](https://github.com/NovWyatt/SQL-Injnection) | Teaching lab with a vulnerable and a patched Flask app side by side. |
+| [Web Brute Force Detection](https://github.com/NovWyatt/web-brute-force-detection) | Flask login that locks IPs and usernames after repeated failures, with an admin dashboard. |
+| [AI Agent Project Kit](https://github.com/NovWyatt/ai-agent-project-kit) | Portable starter folder of rules and settings for projects that use Codex and Claude Code. |
+| [IP Checker](https://github.com/NovWyatt/IP-Checker) | Single-page tool that shows your public IP and its details. [Live demo](https://ip-checker-phi.vercel.app) |
+| [Weather Dashboard](https://github.com/NovWyatt/WratherMap) | Forecast dashboard on the OpenWeatherMap API with Chart.js. [Live demo](https://wrather-map.vercel.app) |
+
+</details>
+
+<img src="assets/heading-stack.svg" width="100%" alt="Stack">
+
+<img src="assets/stack.svg" width="100%" alt="Tech stack keyboard: LANG, WEB, SERVER, DATA, TOOLS">
+
+<img src="assets/heading-activity.svg" width="100%" alt="Activity">
+
+<img src="profile-3d-contrib/profile-wyatt.svg" width="100%" alt="3D contribution calendar of NovWyatt">
+
+<p align="center"><sub>If you put in the effort, success will surely come to you one day soon.</sub></p>
+

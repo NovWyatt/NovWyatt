@@ -1,0 +1,20 @@
+{
+  "type": "normal",
+  "fileName": "profile-wyatt.svg",
+  "growingAnimation": true,
+  "backgroundColor": "#EDF0F3",
+  "foregroundColor": "#0D1015",
+  "strongColor": "#4C7A0A",
+  "weakColor": "#56606D",
+  "radarColor": "#4C7A0A",
+  "contribColors": ["#D9DEE5", "#D6F0A0", "#A6D654", "#76AE17", "#4C7A0A"],
+  "darkMode": {
+    "type": "normal",
+    "backgroundColor": "#0A0C0F",
+    "foregroundColor": "#E9ECF0",
+    "strongColor": "#C4F25A",
+    "weakColor": "#8E97A4",
+    "radarColor": "#C4F25A",
+    "contribColors": ["#1C2129", "#2C3D10", "#4F6F17", "#8DBB2C", "#C4F25A"]
+  }
+}
