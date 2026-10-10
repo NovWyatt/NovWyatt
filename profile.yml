@@ -30,6 +30,9 @@ socials:
   - label: Telegram
     url: https://t.me/Whatever_willbe_willbe
     icon: telegram
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/nov-wyatt/
+    icon: phosphor:linkedin-logo
   - label: Email
     url: mailto:hoangftuaans.nov@gmail.com
     icon: gmail

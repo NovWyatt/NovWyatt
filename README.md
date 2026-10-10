@@ -7,6 +7,7 @@
 
 <p align="center">
 <a href="https://t.me/Whatever_willbe_willbe"><img src="assets/social/telegram.svg" height="46" alt="Telegram"></a>&nbsp;
+<a href="https://www.linkedin.com/in/nov-wyatt/"><img src="assets/social/linkedin.svg" height="46" alt="LinkedIn"></a>&nbsp;
 <a href="mailto:hoangftuaans.nov@gmail.com"><img src="assets/social/email.svg" height="46" alt="Email"></a>&nbsp;
 <a href="https://www.instagram.com/nov.wyatt"><img src="assets/social/instagram.svg" height="46" alt="Instagram"></a>
 </p>
