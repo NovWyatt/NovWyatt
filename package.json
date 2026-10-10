@@ -1,20 +1,26 @@
 {
   "name": "novwyatt-profile",
   "private": true,
-  "description": "Sinh README và ảnh SVG cho trang GitHub của NovWyatt từ profile.yml",
+  "description": "Sinh README, ảnh SVG cho trang GitHub của NovWyatt và trang wyattos.cyou từ profile.yml",
   "type": "module",
   "engines": {
     "node": ">=22"
   },
   "scripts": {
     "build": "node scripts/build.mjs",
-    "preview": "node scripts/preview.mjs"
+    "preview": "node scripts/preview.mjs",
+    "site": "node scripts/build.mjs site",
+    "deploy": "node scripts/build.mjs site && wrangler deploy"
   },
   "dependencies": {
     "@phosphor-icons/core": "2.1.1",
     "opentype.js": "2.0.0",
     "sharp": "0.35.5",
     "simple-icons": "16.34.0",
+    "subset-font": "2.9.0",
     "yaml": "2.9.1"
+  },
+  "devDependencies": {
+    "wrangler": "4.149.0"
   }
 }

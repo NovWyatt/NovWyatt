@@ -1,7 +1,7 @@
-# Hướng dẫn sửa trang GitHub
+# Hướng dẫn sửa trang GitHub và trang wyattos.cyou
 
-Trang https://github.com/NovWyatt được vẽ tự động từ một tệp duy nhất: **`profile.yml`**.
-`README.md`, mọi ảnh trong `assets/` và biểu đồ trong `profile-3d-contrib/` đều do máy sinh ra; sửa tay sẽ bị ghi đè ở lần chạy sau.
+Trang https://github.com/NovWyatt và trang https://wyattos.cyou được vẽ tự động từ một tệp duy nhất: **`profile.yml`**.
+`README.md`, mọi ảnh trong `assets/`, biểu đồ trong `profile-3d-contrib/` và trang web trong `site/dist/` đều do máy sinh ra; sửa tay sẽ bị ghi đè ở lần chạy sau.
 
 ## Sửa nhanh trên github.com (không cần cài gì)
 
@@ -27,6 +27,7 @@ socials:
 - Email dùng dạng `url: mailto:ten@gmail.com`.
 
 Mỗi nút là một ảnh riêng trong `assets/social/`, bấm vào là mở đúng đường dẫn.
+Trên trang wyattos.cyou các nút này nằm ở mục Contact (nút Website tự ẩn vì trỏ về chính trang đó).
 
 ## Dự án nổi bật
 
@@ -64,6 +65,26 @@ npm run preview
 `npm run preview` mở http://localhost:4173, dựng README bằng chính bộ dựng Markdown của GitHub.
 Thêm `?theme=light` để xem giao diện sáng. Chỉ vẽ lại một phần: `npm run build -- hero cards readme`.
 
+## Trang web wyattos.cyou
+
+Trang chạy trên Cloudflare Workers (chỉ tệp tĩnh, gói miễn phí), cấu hình ở `wrangler.jsonc`.
+Nội dung lấy từ `profile.yml`; giao diện và hiệu ứng ở `site/src/style.css` và `site/src/app.js`.
+
+```bash
+npm run site       # chỉ dựng site/dist
+npm run deploy     # dựng rồi đăng lên Cloudflare (lần đầu chạy npx wrangler login)
+```
+
+Xem trước trên máy: `npm run site` rồi `npx wrangler dev`, mở http://localhost:8787.
+
+**Tự đăng sau mỗi lần sửa `profile.yml` (tuỳ chọn):** chưa có thì phải chạy `npm run deploy` trên máy.
+
+1. Cloudflare > My Profile > API Tokens > Create Token > mẫu **Edit Cloudflare Workers**, chọn đúng tài khoản và zone `wyattos.cyou`.
+2. Repo này > Settings > Secrets and variables > Actions, thêm `CLOUDFLARE_API_TOKEN` (token vừa tạo)
+   và `CLOUDFLARE_ACCOUNT_ID` (mã tài khoản, xem ở trang Workers & Pages hoặc chạy `npx wrangler whoami`).
+
+Có hai secret này, workflow **Profile** sẽ tự đăng lại trang sau khi vẽ README, kể cả lần chạy mỗi đêm (cập nhật biểu đồ đóng góp).
+
 ## Token (tuỳ chọn)
 
 Mặc định Actions chỉ đọc được repo công khai. Muốn biểu đồ 3D và số commit tính cả repo private:
@@ -78,7 +99,9 @@ Không có token thì số liệu repo private lấy từ `data/github.json` (l�
 | Thư viện | Dùng cho | Giấy phép |
 | --- | --- | --- |
 | opentype.js | Dựng chữ thành path để ảnh hiện đúng font | MIT |
-| sharp | Thu nhỏ ảnh chụp màn hình, nhúng vào SVG | Apache-2.0 |
+| sharp | Thu nhỏ ảnh chụp màn hình, nhúng vào SVG; tạo ảnh xem trước khi chia sẻ link | Apache-2.0 |
+| subset-font | Cắt font chỉ giữ chữ Latin và tiếng Việt cho trang web | BSD-3-Clause |
+| wrangler | Xem trước và đăng trang lên Cloudflare | MIT / Apache-2.0 |
 | yaml | Đọc `profile.yml` | ISC |
 | simple-icons | Logo công nghệ và mạng xã hội | CC0-1.0 |
 | @phosphor-icons/core | Icon chung | MIT |
@@ -93,7 +116,10 @@ media/                 ảnh chụp màn hình gốc cho thẻ wide
 fonts/                 font và giấy phép OFL
 scripts/build.mjs      sinh README.md và assets/
 scripts/preview.mjs    máy chủ xem trước
-scripts/lib/           các phần vẽ: hero, cards, stack, bits (nút, tiêu đề), readme
+scripts/lib/           các phần vẽ: hero, cards, stack, bits (nút, tiêu đề), readme, site (trang web)
+site/src/              giao diện và hiệu ứng của trang wyattos.cyou
+site/dist/             trang web do máy sinh (không đưa lên git)
+wrangler.jsonc         cấu hình Cloudflare Workers
 3d-contrib.json        màu của biểu đồ đóng góp 3D
 data/github.json       số liệu repo đã lưu
 assets/                ảnh do máy sinh

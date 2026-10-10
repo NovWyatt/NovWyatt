@@ -1,5 +1,5 @@
-# Vẽ lại trang GitHub của NovWyatt:
-# - mỗi khi profile.yml (hoặc mã sinh ảnh) thay đổi trên nhánh main,
+# Vẽ lại trang GitHub của NovWyatt và trang wyattos.cyou:
+# - mỗi khi profile.yml (hoặc mã sinh ảnh, mã trang web) thay đổi trên nhánh main,
 # - mỗi đêm lúc 01:00 giờ Việt Nam để cập nhật biểu đồ đóng góp 3D và số liệu repo,
 # - hoặc bấm tay: tab Actions -> Profile -> Run workflow.
 name: Profile
@@ -13,6 +13,8 @@ on:
       - media/**
       - fonts/**
       - scripts/**
+      - site/src/**
+      - wrangler.jsonc
       - package.json
       - package-lock.json
       - .github/workflows/profile.yml
@@ -30,6 +32,10 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      # Có secret này thì đăng luôn trang wyattos.cyou lên Cloudflare (xem HUONG-DAN.md).
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
     steps:
       - uses: actions/checkout@v7
 
@@ -48,7 +54,7 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
           SETTING_JSON: ./3d-contrib.json
 
-      - name: Vẽ README và ảnh
+      - name: Vẽ README, ảnh và trang web
         run: npm run build
         env:
           PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
@@ -65,3 +71,7 @@ jobs:
             git commit -m "Vẽ lại profile"
             git push
           fi
+
+      - name: Đăng trang wyattos.cyou
+        if: env.CLOUDFLARE_API_TOKEN != ''
+        run: npx wrangler deploy

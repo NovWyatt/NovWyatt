@@ -1,6 +1,6 @@
 // Sinh README.md và toàn bộ ảnh trong assets/ từ profile.yml.
 // Chạy: npm run build   (cần Node 22+; số liệu GitHub lấy bằng PROFILE_TOKEN, GITHUB_TOKEN hoặc gh CLI nếu có)
-// Chỉ vẽ lại một phần: npm run build -- hero cards stack socials headings readme
+// Chỉ vẽ lại một phần: npm run build -- hero cards stack socials headings readme site
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -11,6 +11,7 @@ import { renderHalfCard, renderWideCard } from './lib/cards.mjs';
 import { loadRepoMeta } from './lib/github.mjs';
 import { renderHero } from './lib/hero.mjs';
 import { renderReadme } from './lib/readme.mjs';
+import { buildSite } from './lib/site.mjs';
 import { renderStack } from './lib/stack.mjs';
 import { loadFonts } from './lib/type.mjs';
 
@@ -79,6 +80,13 @@ if (want('contrib') && fs.existsSync(path.join(ROOT, contribFile))) {
 
 if (want('readme')) {
   write('README.md', renderReadme(profile, projects, { socialFiles, contribFile, metaFor, headings }) + '\n');
+}
+
+// Trang web wyattos.cyou (site/dist, không đưa vào git; đăng bằng npm run deploy).
+if (want('site')) {
+  const heroSvg = fs.readFileSync(path.join(ROOT, 'assets/hero.svg'), 'utf8');
+  const files = await buildSite(profile, projects, { root: ROOT, metaFor, heroSvg, contribFile: path.join(ROOT, contribFile) });
+  written.push(`site/dist/ (${files.length} tệp)`);
 }
 
 // Xoá ảnh của dự án hoặc mạng xã hội đã bỏ khỏi profile.yml.

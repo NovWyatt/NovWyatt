@@ -20,7 +20,7 @@ export function statusLabel(project, meta) {
 
 // Số commit chỉ có nghĩa khi repo chứa mã nguồn (repo chỉ để phát hành thì bỏ qua),
 // và chỉ hiện khi đủ nhiều: repo đẩy lên một lần có vài commit trông mỏng hơn thực tế.
-function metricText(project, meta) {
+export function metricText(project, meta) {
   if (!meta) return '';
   const parts = [];
   if (meta.stars > 0) parts.push(`${meta.stars} stars`);

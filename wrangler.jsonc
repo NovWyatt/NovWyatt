@@ -1,0 +1,14 @@
+// Trang wyattos.cyou trên Cloudflare Workers (chỉ tệp tĩnh, không có mã chạy phía máy chủ).
+// Đăng: npm run deploy   (lần đầu: npx wrangler login)
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "wyattos",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./site/dist",
+    "not_found_handling": "404-page"
+  },
+  "routes": [{ "pattern": "wyattos.cyou", "custom_domain": true }],
+  "workers_dev": false,
+  "preview_urls": false
+}

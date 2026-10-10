@@ -6,6 +6,7 @@
 <a href="https://github.com/NovWyatt"><img src="assets/hero.svg" width="100%" alt="Wyatt: fullstack web developer, laravel + cloudflare workers, python for ocr and data recovery, windows automation in powershell, learning network security"></a>
 
 <p align="center">
+<a href="https://wyattos.cyou"><img src="assets/social/website.svg" height="46" alt="Website"></a>&nbsp;
 <a href="https://t.me/Whatever_willbe_willbe"><img src="assets/social/telegram.svg" height="46" alt="Telegram"></a>&nbsp;
 <a href="https://www.linkedin.com/in/nov-wyatt/"><img src="assets/social/linkedin.svg" height="46" alt="LinkedIn"></a>&nbsp;
 <a href="mailto:hoangftuaans.nov@gmail.com"><img src="assets/social/email.svg" height="46" alt="Email"></a>&nbsp;

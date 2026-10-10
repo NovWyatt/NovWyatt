@@ -27,6 +27,9 @@ intro: >-
 
 # Mạng xã hội: thêm, bớt, đổi thứ tự thoải mái. Mỗi mục 3 dòng.
 socials:
+  - label: Website
+    url: https://wyattos.cyou
+    icon: phosphor:globe
   - label: Telegram
     url: https://t.me/Whatever_willbe_willbe
     icon: telegram
