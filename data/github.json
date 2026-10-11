@@ -12,7 +12,7 @@
   "NovWyatt/Tool_Win": {
     "stars": 0,
     "commits": 70,
-    "release": null
+    "release": "v1.5.0"
   },
   "NovWyatt/WratherMap": {
     "stars": 0,
@@ -21,7 +21,7 @@
   },
   "NovWyatt/checkparking": {
     "stars": 0,
-    "commits": 4,
+    "commits": 5,
     "release": "v1.14.2"
   },
   "NovWyatt/encrypt-decrypt-tool": {
@@ -31,7 +31,7 @@
   },
   "NovWyatt/mdf2sql": {
     "stars": 0,
-    "commits": 10,
+    "commits": 12,
     "release": null
   },
   "NovWyatt/mini-ids": {

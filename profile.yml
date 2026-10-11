@@ -69,9 +69,10 @@ projects:
   - id: tool-win
     title: Trạm Tool
     repo: NovWyatt/Tool_Win
+    link: https://github.com/NovWyatt/Tool_Win/releases/latest
     size: half
     icon: phosphor:toolbox
-    status: open-source
+    status: release
     description: >-
       One local hub for my Windows toolkit: diagnostics, repairs, office and data tools,
       launched and tracked from a browser UI.
