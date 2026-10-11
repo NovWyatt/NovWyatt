@@ -66,17 +66,20 @@ projects:
       with PaddleOCR on ONNX Runtime, then exports the results to Excel.
     tags: [Python, PySide6, PaddleOCR, ONNX Runtime, OpenCV]
 
+
   - id: tool-win
     title: Trạm Tool
     repo: NovWyatt/Tool_Win
     link: https://github.com/NovWyatt/Tool_Win/releases/latest
-    size: half
+    size: wide
+    image: media/tool-win.png
     icon: phosphor:toolbox
     status: release
     description: >-
       One local hub for my Windows toolkit: diagnostics, repairs, office and data tools,
       launched and tracked from a browser UI.
     tags: [PowerShell, Python, JavaScript]
+
 
   - id: mdf2sql
     title: mdf2sql
@@ -88,6 +91,19 @@ projects:
       Recovers SQL Server data from a bare .mdf file, even after a power cut with no log,
       into a .sql script for SQL Server or MySQL.
     tags: [Python, SQL Server, pyodbc]
+
+
+  - id: sql-injection-lab
+    title: SQL Injection Lab
+    repo: NovWyatt/sql-injection-lab
+    size: half
+    icon: phosphor:bug
+    status: open-source
+    description: >-
+      Teaching lab for SQL injection: a vulnerable and a patched Flask app side by side,
+      with exploit scripts for login bypass, UNION and blind SQLi.
+    tags: [Python, Flask, SQLite, Security]
+
 
   - id: encrypt-decrypt-tool
     title: Encrypt/Decrypt Tool
@@ -102,27 +118,6 @@ projects:
       Interactive lessons show why ECB leaks an image and CBC does not.
     tags: [TypeScript, React, Web Crypto, Argon2]
 
-  - id: sql-injection-lab
-    title: SQL Injection Lab
-    repo: NovWyatt/sql-injection-lab
-    size: half
-    icon: phosphor:bug
-    status: open-source
-    description: >-
-      Teaching lab for SQL injection: a vulnerable and a patched Flask app side by side,
-      with exploit scripts for login bypass, UNION and blind SQLi.
-    tags: [Python, Flask, SQLite, Security]
-
-  - id: ke-toan
-    title: KE-TOAN
-    repo: NovWyatt/KE-TOAN
-    size: half
-    icon: phosphor:calculator
-    status: open-source
-    description: >-
-      Desktop tool for accountants: matches invoices due for payment against bank debit notes
-      in an Excel file. Runs offline, no Excel needed.
-    tags: [C#, .NET 8, WPF, ClosedXML]
 
   - id: mini-ids
     title: mini-IDS
@@ -138,6 +133,9 @@ projects:
 
 # Danh sách gọn trong mục "More projects" (thu gọn, bấm để mở).
 more:
+  - title: KE-TOAN
+    repo: NovWyatt/KE-TOAN
+    description: Desktop tool for accountants that matches invoices due against bank debit notes in Excel, fully offline.
   - title: Web Brute Force Detection
     repo: NovWyatt/web-brute-force-detection
     description: Flask login that locks IPs and usernames after repeated failures, with an admin dashboard.

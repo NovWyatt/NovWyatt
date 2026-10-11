@@ -19,11 +19,11 @@
 
 <a href="https://github.com/NovWyatt/checkparking/releases/latest"><img src="assets/projects/checkparking.svg" width="100%" alt="Check Vehicle OCR: Windows app that reads Vietnamese license plates from photo batches, fully offline with PaddleOCR on ONNX Runtime, then exports the results to Excel. (Download v1.14.2)"></a>
 
-<a href="https://github.com/NovWyatt/Tool_Win/releases/latest"><img src="assets/projects/tool-win.svg" width="49%" alt="Trạm Tool: One local hub for my Windows toolkit: diagnostics, repairs, office and data tools, launched and tracked from a browser UI. (Download v1.5.0)"></a>&nbsp;<a href="https://github.com/NovWyatt/mdf2sql"><img src="assets/projects/mdf2sql.svg" width="49%" alt="mdf2sql: Recovers SQL Server data from a bare .mdf file, even after a power cut with no log, into a .sql script for SQL Server or MySQL. (Open source)"></a>
+<a href="https://github.com/NovWyatt/Tool_Win/releases/latest"><img src="assets/projects/tool-win.svg" width="100%" alt="Trạm Tool: One local hub for my Windows toolkit: diagnostics, repairs, office and data tools, launched and tracked from a browser UI. (Download v1.5.0)"></a>
+
+<a href="https://github.com/NovWyatt/mdf2sql"><img src="assets/projects/mdf2sql.svg" width="49%" alt="mdf2sql: Recovers SQL Server data from a bare .mdf file, even after a power cut with no log, into a .sql script for SQL Server or MySQL. (Open source)"></a>&nbsp;<a href="https://github.com/NovWyatt/sql-injection-lab"><img src="assets/projects/sql-injection-lab.svg" width="49%" alt="SQL Injection Lab: Teaching lab for SQL injection: a vulnerable and a patched Flask app side by side, with exploit scripts for login bypass, UNION and blind SQLi. (Open source)"></a>
 
 <a href="https://encrypt-decrypt-tool.pages.dev"><img src="assets/projects/encrypt-decrypt-tool.svg" width="100%" alt="Encrypt/Decrypt Tool: AES and RSA for text and files, entirely in the browser with no server. Interactive lessons show why ECB leaks an image and CBC does not. (Live demo)"></a>
-
-<a href="https://github.com/NovWyatt/sql-injection-lab"><img src="assets/projects/sql-injection-lab.svg" width="49%" alt="SQL Injection Lab: Teaching lab for SQL injection: a vulnerable and a patched Flask app side by side, with exploit scripts for login bypass, UNION and blind SQLi. (Open source)"></a>&nbsp;<a href="https://github.com/NovWyatt/KE-TOAN"><img src="assets/projects/ke-toan.svg" width="49%" alt="KE-TOAN: Desktop tool for accountants: matches invoices due for payment against bank debit notes in an Excel file. Runs offline, no Excel needed. (Open source)"></a>
 
 <a href="https://github.com/NovWyatt/mini-ids"><img src="assets/projects/mini-ids.svg" width="100%" alt="mini-IDS: Intrusion detection in Python: 12 detectors from port scans to C2 beaconing, ML anomaly scoring and a live dashboard mapped to MITRE ATT&amp;CK. (Open source)"></a>
 
@@ -32,6 +32,7 @@
 
 | Project | What it is |
 | --- | --- |
+| [KE-TOAN](https://github.com/NovWyatt/KE-TOAN) | Desktop tool for accountants that matches invoices due against bank debit notes in Excel, fully offline. |
 | [Web Brute Force Detection](https://github.com/NovWyatt/web-brute-force-detection) | Flask login that locks IPs and usernames after repeated failures, with an admin dashboard. |
 | [IP Checker](https://github.com/NovWyatt/IP-Checker) | Single-page tool that shows your public IP and its details. [Live demo](https://ip-checker-phi.vercel.app) |
 | [Weather Dashboard](https://github.com/NovWyatt/WratherMap) | Forecast dashboard on the OpenWeatherMap API with Chart.js. [Live demo](https://wrather-map.vercel.app) |
