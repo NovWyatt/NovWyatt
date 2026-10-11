@@ -32,7 +32,6 @@
 
 | Project | What it is |
 | --- | --- |
-| [KE-TOAN](https://github.com/NovWyatt/KE-TOAN) | Desktop tool for accountants that matches invoices due against bank debit notes in Excel, fully offline. |
 | [Web Brute Force Detection](https://github.com/NovWyatt/web-brute-force-detection) | Flask login that locks IPs and usernames after repeated failures, with an admin dashboard. |
 | [IP Checker](https://github.com/NovWyatt/IP-Checker) | Single-page tool that shows your public IP and its details. [Live demo](https://ip-checker-phi.vercel.app) |
 | [Weather Dashboard](https://github.com/NovWyatt/WratherMap) | Forecast dashboard on the OpenWeatherMap API with Chart.js. [Live demo](https://wrather-map.vercel.app) |

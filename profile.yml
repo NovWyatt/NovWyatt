@@ -133,9 +133,6 @@ projects:
 
 # Danh sách gọn trong mục "More projects" (thu gọn, bấm để mở).
 more:
-  - title: KE-TOAN
-    repo: NovWyatt/KE-TOAN
-    description: Desktop tool for accountants that matches invoices due against bank debit notes in Excel, fully offline.
   - title: Web Brute Force Detection
     repo: NovWyatt/web-brute-force-detection
     description: Flask login that locks IPs and usernames after repeated failures, with an admin dashboard.
