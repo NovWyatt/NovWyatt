@@ -1,47 +1,37 @@
 {
-  "NovWyatt/AutoInstaller-Win": {
-    "stars": 0,
-    "commits": 20,
-    "release": null
-  },
   "NovWyatt/IP-Checker": {
     "stars": 0,
-    "commits": 5,
+    "commits": 6,
     "release": null
   },
   "NovWyatt/KE-TOAN": {
     "stars": 0,
-    "commits": 7,
+    "commits": 9,
     "release": "v0.4.1"
-  },
-  "NovWyatt/SQL-Injnection": {
-    "stars": 0,
-    "commits": 1,
-    "release": null
   },
   "NovWyatt/Tool_Win": {
     "stars": 0,
-    "commits": 69,
+    "commits": 70,
     "release": null
   },
   "NovWyatt/WratherMap": {
     "stars": 0,
-    "commits": 4,
+    "commits": 5,
     "release": null
   },
   "NovWyatt/checkparking": {
     "stars": 0,
-    "commits": 3,
+    "commits": 4,
     "release": "v1.14.2"
   },
   "NovWyatt/encrypt-decrypt-tool": {
     "stars": 0,
-    "commits": 25,
+    "commits": 32,
     "release": null
   },
   "NovWyatt/mdf2sql": {
     "stars": 0,
-    "commits": 9,
+    "commits": 10,
     "release": null
   },
   "NovWyatt/mini-ids": {
@@ -49,9 +39,14 @@
     "commits": 2,
     "release": null
   },
+  "NovWyatt/sql-injection-lab": {
+    "stars": 0,
+    "commits": 2,
+    "release": null
+  },
   "NovWyatt/web-brute-force-detection": {
     "stars": 0,
-    "commits": 3,
+    "commits": 4,
     "release": null
   }
 }

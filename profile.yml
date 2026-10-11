@@ -101,16 +101,16 @@ projects:
       Interactive lessons show why ECB leaks an image and CBC does not.
     tags: [TypeScript, React, Web Crypto, Argon2]
 
-  - id: autoinstaller-win
-    title: AutoInstaller-Win
-    repo: NovWyatt/AutoInstaller-Win
+  - id: sql-injection-lab
+    title: SQL Injection Lab
+    repo: NovWyatt/sql-injection-lab
     size: half
-    icon: phosphor:usb
+    icon: phosphor:bug
     status: open-source
     description: >-
-      A bootable USB that installs Windows 11, apps, drivers and settings unattended,
-      then leaves a report of everything it did.
-    tags: [PowerShell, AutoIt, Ventoy]
+      Teaching lab for SQL injection: a vulnerable and a patched Flask app side by side,
+      with exploit scripts for login bypass, UNION and blind SQLi.
+    tags: [Python, Flask, SQLite, Security]
 
   - id: ke-toan
     title: KE-TOAN
@@ -137,9 +137,6 @@ projects:
 
 # Danh sách gọn trong mục "More projects" (thu gọn, bấm để mở).
 more:
-  - title: SQL Injection Lab
-    repo: NovWyatt/SQL-Injnection
-    description: Teaching lab with a vulnerable and a patched Flask app side by side.
   - title: Web Brute Force Detection
     repo: NovWyatt/web-brute-force-detection
     description: Flask login that locks IPs and usernames after repeated failures, with an admin dashboard.
