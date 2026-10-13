@@ -17,7 +17,7 @@
 
 <img src="assets/heading-work.svg" width="100%" alt="Selected work">
 
-<a href="https://github.com/NovWyatt/checkparking/releases/latest"><img src="assets/projects/checkparking.svg" width="100%" alt="Check Vehicle OCR: Windows app that reads Vietnamese license plates from photo batches, fully offline with PaddleOCR on ONNX Runtime, then exports the results to Excel. (Download v1.14.2)"></a>
+<a href="https://github.com/NovWyatt/checkparking/releases/latest"><img src="assets/projects/checkparking.svg" width="100%" alt="Check Vehicle OCR: Windows app that reads Vietnamese license plates from photo batches, fully offline with PaddleOCR on ONNX Runtime, then exports the results to Excel. (Download v1.14.3)"></a>
 
 <a href="https://github.com/NovWyatt/Tool_Win/releases/latest"><img src="assets/projects/tool-win.svg" width="100%" alt="Trạm Tool: One local hub for my Windows toolkit: diagnostics, repairs, office and data tools, launched and tracked from a browser UI. (Download v1.5.0)"></a>
 
