@@ -17,6 +17,10 @@
 
 <img src="assets/heading-work.svg" width="100%" alt="Selected work">
 
+<a href="https://giadat.wyattos.cyou"><img src="assets/projects/giadat-hcm.svg" width="100%" alt="Giá đất TP.HCM 2026: Looks up and values land in Ho Chi Minh City under the official 2026 price table, with step-by-step formulas, the clauses applied and notary fees. (Live demo)"></a>
+
+<a href="https://github.com/NovWyatt/laravel-login-guard"><img src="assets/projects/laravel-login-guard.svg" width="100%" alt="Laravel Login Guard: Brute-force protection for Laravel: per-username and per-IP lockouts that grow 1, 2, 4 minutes, IP allow and block lists, alerts and an audit log. (Open source)"></a>
+
 <a href="https://github.com/NovWyatt/checkparking/releases/latest"><img src="assets/projects/checkparking.svg" width="100%" alt="Check Vehicle OCR: Windows app that reads Vietnamese license plates from photo batches, fully offline with PaddleOCR on ONNX Runtime, then exports the results to Excel. (Download v1.14.3)"></a>
 
 <a href="https://github.com/NovWyatt/Tool_Win/releases/latest"><img src="assets/projects/tool-win.svg" width="100%" alt="Trạm Tool: One local hub for my Windows toolkit: diagnostics, repairs, office and data tools, launched and tracked from a browser UI. (Download v1.5.0)"></a>
@@ -32,7 +36,6 @@
 
 | Project | What it is |
 | --- | --- |
-| [Web Brute Force Detection](https://github.com/NovWyatt/web-brute-force-detection) | Flask login that locks IPs and usernames after repeated failures, with an admin dashboard. |
 | [IP Checker](https://github.com/NovWyatt/IP-Checker) | Single-page tool that shows your public IP and its details. [Live demo](https://ip-checker-phi.vercel.app) |
 | [Weather Dashboard](https://github.com/NovWyatt/WratherMap) | Forecast dashboard on the OpenWeatherMap API with Chart.js. [Live demo](https://wrather-map.vercel.app) |
 

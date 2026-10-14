@@ -53,6 +53,33 @@ socials:
 # status: open-source | live | release | closed
 # show: false để tạm ẩn một dự án mà không phải xoá.
 projects:
+  - id: giadat-hcm
+    title: Giá đất TP.HCM 2026
+    repo: NovWyatt/giadat-hcm
+    link: https://giadat.wyattos.cyou
+    size: wide
+    image: media/giadat-hcm.png
+    icon: phosphor:map-trifold
+    status: live
+    description: >-
+      Looks up and values land in Ho Chi Minh City under the official 2026 price table,
+      with step-by-step formulas, the clauses applied and notary fees.
+    tags: [PHP, Laravel, SQLite, Tailwind CSS, Wasmer]
+
+
+  - id: laravel-login-guard
+    title: Laravel Login Guard
+    repo: NovWyatt/laravel-login-guard
+    size: wide
+    image: media/laravel-login-guard.png
+    icon: phosphor:password
+    status: open-source
+    description: >-
+      Brute-force protection for Laravel: per-username and per-IP lockouts that grow 1, 2, 4 minutes,
+      IP allow and block lists, alerts and an audit log.
+    tags: [PHP, Laravel, Pest, Larastan, Packagist]
+
+
   - id: checkparking
     title: Check Vehicle OCR
     repo: NovWyatt/checkparking
@@ -133,9 +160,6 @@ projects:
 
 # Danh sách gọn trong mục "More projects" (thu gọn, bấm để mở).
 more:
-  - title: Web Brute Force Detection
-    repo: NovWyatt/web-brute-force-detection
-    description: Flask login that locks IPs and usernames after repeated failures, with an admin dashboard.
   - title: IP Checker
     repo: NovWyatt/IP-Checker
     link: https://ip-checker-phi.vercel.app

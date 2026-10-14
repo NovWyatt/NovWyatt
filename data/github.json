@@ -24,6 +24,16 @@
     "commits": 32,
     "release": null
   },
+  "NovWyatt/giadat-hcm": {
+    "stars": 0,
+    "commits": 54,
+    "release": null
+  },
+  "NovWyatt/laravel-login-guard": {
+    "stars": 0,
+    "commits": 4,
+    "release": null
+  },
   "NovWyatt/mdf2sql": {
     "stars": 0,
     "commits": 12,
@@ -37,11 +47,6 @@
   "NovWyatt/sql-injection-lab": {
     "stars": 0,
     "commits": 2,
-    "release": null
-  },
-  "NovWyatt/web-brute-force-detection": {
-    "stars": 0,
-    "commits": 4,
     "release": null
   }
 }
