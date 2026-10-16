@@ -53,20 +53,6 @@ socials:
 # status: open-source | live | release | closed
 # show: false để tạm ẩn một dự án mà không phải xoá.
 projects:
-  - id: giadat-hcm
-    title: Giá đất TP.HCM 2026
-    repo: NovWyatt/giadat-hcm
-    link: https://giadat.wyattos.cyou
-    size: wide
-    image: media/giadat-hcm.png
-    icon: phosphor:map-trifold
-    status: live
-    description: >-
-      Looks up and values land in Ho Chi Minh City under the official 2026 price table,
-      with step-by-step formulas, the clauses applied and notary fees.
-    tags: [PHP, Laravel, SQLite, Tailwind CSS, Wasmer]
-
-
   - id: laravel-login-guard
     title: Laravel Login Guard
     repo: NovWyatt/laravel-login-guard
