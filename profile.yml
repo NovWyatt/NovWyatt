@@ -15,6 +15,7 @@ tagline: I build web apps, Windows tools and the automation in between.
 roles:
   - fullstack web developer
   - laravel + cloudflare workers
+  - payment webhooks for small shops
   - python for ocr and data recovery
   - windows automation in powershell
   - learning network security
@@ -53,6 +54,19 @@ socials:
 # status: open-source | live | release | closed
 # show: false để tạm ẩn một dự án mà không phải xoá.
 projects:
+  - id: bank-transfer-gateway
+    title: Bank Transfer Gateway
+    repo: NovWyatt/bank-transfer-gateway
+    size: wide
+    image: media/bank-transfer-gateway.png
+    icon: phosphor:bank
+    status: open-source
+    description: >-
+      Auto-confirms bank transfers for small shops: a VietQR code per order, SePay and Pay2S webhooks,
+      a REST API and signed webhooks back to the shop.
+    tags: [PHP, Laravel, Filament, MySQL, Cloudflare Workers]
+
+
   - id: laravel-login-guard
     title: Laravel Login Guard
     repo: NovWyatt/laravel-login-guard
@@ -146,6 +160,9 @@ projects:
 
 # Danh sách gọn trong mục "More projects" (thu gọn, bấm để mở).
 more:
+  - title: AutoSetup_Win
+    repo: NovWyatt/AutoSetup_Win
+    description: Unattended Windows 10/11 install from a Ventoy USB, with apps via winget, Office, drivers and a report.
   - title: IP Checker
     repo: NovWyatt/IP-Checker
     link: https://ip-checker-phi.vercel.app

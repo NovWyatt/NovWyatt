@@ -1,4 +1,9 @@
 {
+  "NovWyatt/AutoSetup_Win": {
+    "stars": 0,
+    "commits": 12,
+    "release": null
+  },
   "NovWyatt/IP-Checker": {
     "stars": 0,
     "commits": 6,
@@ -12,6 +17,11 @@
   "NovWyatt/WratherMap": {
     "stars": 0,
     "commits": 5,
+    "release": null
+  },
+  "NovWyatt/bank-transfer-gateway": {
+    "stars": 0,
+    "commits": 29,
     "release": null
   },
   "NovWyatt/checkparking": {

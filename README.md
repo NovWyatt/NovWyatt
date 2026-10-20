@@ -3,7 +3,7 @@
   Muốn đổi nội dung thì sửa profile.yml, xem HUONG-DAN.md. Sửa trực tiếp tệp này sẽ bị ghi đè.
 -->
 
-<a href="https://github.com/NovWyatt"><img src="assets/hero.svg" width="100%" alt="Wyatt: fullstack web developer, laravel + cloudflare workers, python for ocr and data recovery, windows automation in powershell, learning network security"></a>
+<a href="https://github.com/NovWyatt"><img src="assets/hero.svg" width="100%" alt="Wyatt: fullstack web developer, laravel + cloudflare workers, payment webhooks for small shops, python for ocr and data recovery, windows automation in powershell, learning network security"></a>
 
 <p align="center">
 <a href="https://wyattos.cyou"><img src="assets/social/website.svg" height="46" alt="Website"></a>&nbsp;
@@ -16,6 +16,8 @@
 <p align="center">Hi, I'm Wyatt, a fullstack developer from Ho Chi Minh City, Vietnam. I build web apps on Laravel and Cloudflare Workers, Windows tools in PowerShell and C#, and Python utilities for OCR, data recovery and network security.</p>
 
 <img src="assets/heading-work.svg" width="100%" alt="Selected work">
+
+<a href="https://github.com/NovWyatt/bank-transfer-gateway"><img src="assets/projects/bank-transfer-gateway.svg" width="100%" alt="Bank Transfer Gateway: Auto-confirms bank transfers for small shops: a VietQR code per order, SePay and Pay2S webhooks, a REST API and signed webhooks back to the shop. (Open source)"></a>
 
 <a href="https://github.com/NovWyatt/laravel-login-guard"><img src="assets/projects/laravel-login-guard.svg" width="100%" alt="Laravel Login Guard: Brute-force protection for Laravel: per-username and per-IP lockouts that grow 1, 2, 4 minutes, IP allow and block lists, alerts and an audit log. (Open source)"></a>
 
@@ -34,6 +36,7 @@
 
 | Project | What it is |
 | --- | --- |
+| [AutoSetup_Win](https://github.com/NovWyatt/AutoSetup_Win) | Unattended Windows 10/11 install from a Ventoy USB, with apps via winget, Office, drivers and a report. |
 | [IP Checker](https://github.com/NovWyatt/IP-Checker) | Single-page tool that shows your public IP and its details. [Live demo](https://ip-checker-phi.vercel.app) |
 | [Weather Dashboard](https://github.com/NovWyatt/WratherMap) | Forecast dashboard on the OpenWeatherMap API with Chart.js. [Live demo](https://wrather-map.vercel.app) |
 
