@@ -37,8 +37,8 @@
 | Project | What it is |
 | --- | --- |
 | [AutoSetup_Win](https://github.com/NovWyatt/AutoSetup_Win) | Unattended Windows 10/11 install from a Ventoy USB, with apps via winget, Office, drivers and a report. |
-| [IP Checker](https://github.com/NovWyatt/IP-Checker) | Single-page tool that shows your public IP and its details. [Live demo](https://ip-checker-phi.vercel.app) |
-| [Weather Dashboard](https://github.com/NovWyatt/WratherMap) | Forecast dashboard on the OpenWeatherMap API with Chart.js. [Live demo](https://wrather-map.vercel.app) |
+| [IP Checker](https://github.com/NovWyatt/IP-Checker) | Single-page tool that shows your public IP and its details. [Live demo](https://ip.wyattos.cyou) |
+| [Weather Dashboard](https://github.com/NovWyatt/WratherMap) | Forecast dashboard on the OpenWeatherMap API with Chart.js. [Live demo](https://weather.wyattos.cyou) |
 
 </details>
 

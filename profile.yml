@@ -165,11 +165,11 @@ more:
     description: Unattended Windows 10/11 install from a Ventoy USB, with apps via winget, Office, drivers and a report.
   - title: IP Checker
     repo: NovWyatt/IP-Checker
-    link: https://ip-checker-phi.vercel.app
+    link: https://ip.wyattos.cyou
     description: Single-page tool that shows your public IP and its details.
   - title: Weather Dashboard
     repo: NovWyatt/WratherMap
-    link: https://wrather-map.vercel.app
+    link: https://weather.wyattos.cyou
     description: Forecast dashboard on the OpenWeatherMap API with Chart.js.
 
 # Bàn phím công nghệ. Mỗi hàng có một phím chức năng (row) và các phím icon.
